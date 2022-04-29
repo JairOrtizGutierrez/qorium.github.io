@@ -1,1 +1,1 @@
-# qorium.github.io
+# qorium
