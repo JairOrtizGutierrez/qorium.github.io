@@ -1,0 +1,34 @@
+@font-face {
+    font-family: futura-Bold;
+    src: url(fuentes/futura.otf);
+}
+
+@font-face {
+    font-family: BrandonGrotW01-Regular;
+    src: url(fuentes/Brandon-regular.ttf);
+}
+
+@font-face {
+    font-family: BrandonGrotW01-Bold;
+    src: url(fuentes/Brandon-bold.ttf);
+}
+
+@font-face {
+    font-family: Neuzeit-Grotesk-Bold-Cond;
+    src: url(fuentes/Neuzeit-Grotesk-Bold-Cond.ttf);
+}
+
+@font-face {
+    font-family: Neuzeit-Grotesk-Light-Cond;
+    src: url(fuentes/Grotesque-Light-Condensed.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(fuentes/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: Oswald-Light;
+    src: url(fuentes/Oswald-Light.ttf);
+}

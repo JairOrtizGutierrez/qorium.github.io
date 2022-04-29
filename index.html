@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Qorium | Calzado y accesorios exclusivos</title>
+    <link rel="icon" href="img/iconos/icono_web_qorium.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos_generales.css">
+    <link rel="stylesheet" href="css/estilos_index.css">
+    <link rel="stylesheet" href="css/preloader.css">
+    <link rel="stylesheet" href="css/boton.css">
+    <link rel="stylesheet" href="css/fuentes.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+</head>
+<body>
+  
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content px-2">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle"></h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h5></h5>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn" data-dismiss="modal">Aceptar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+    <div class="viewport">
+        <header>
+            <div class="preloader d-flex justify-content-center align-items-center"></div>
+        </header>
+        <nav>
+            <div class="links row no-gutters">
+                <div class="col-12 col-sm py-3 py-sm-0 pl-sm-5 ml-sm-5 d-flex justify-content-center justify-content-sm-start align-items-center">
+                    <img src="img/iconos/bolsa_vector_3.png" alt="" width="25px" class="mx-auto d-block d-sm-none">
+                    <a href=""><img src="img/iconos/logo_web.png" alt="" width="230px" class="logo_web"></a>
+                    <input type="checkbox" id="menu-toggle"/>
+                    <label for="menu-toggle" class="boton_menu mx-auto mb-0 mt-1 d-flex justify-content-center align-items-center d-sm-none">
+                        <div class="boton">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="boton_equis">
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </label>
+                </div>
+                <div class="col-12 col-sm d-none d-sm-block">
+                    <ul class="pl-0 mb-0 mr-4 h-100 d-flex justify-content-end align-items-center">
+                        <li class="mx-5"><a href="" class="inicio">INICIO</a></li>
+                        <li class="mx-5"><a href="" class="mujer">MUJER</a></li>
+                        <li class="mx-5"><a href="" class="hombre">HOMBRE</a></li>
+                        <li class="mx-5"><a href="" class="nosotros">NOSOTROS</a></li>
+                        <li class="mx-5"><a href="" class="ubicacion">UBICACIÓN</a></li>
+                        <li class="mx-5"><a href=""><img src="img/iconos/bolsa_vector_3.png" alt="" width="25px" class="mr-5 mb-2"></a></li>
+                    </ul>
+                </div>
+                <div class="fondo_blanco col-12 col-sm d-sm-none">
+                    <ul class="listado_links pl-0 mb-0 mr-sm-4 h-100 d-flex flex-column flex-sm-row justify-content-center justify-content-sm-end align-items-center">
+                        <li><a href="" class="inicio px-5 py-3 py-sm-0 d-block">INICIO</a></li>
+                        <li><a href="" class="mujer px-5 py-3 py-sm-0 d-block">MUJER</a></li>
+                        <li><a href="" class="hombre px-5 py-3 py-sm-0 d-block">HOMBRE</a></li>
+                        <li><a href="" class="nosotros px-5 py-3 py-sm-0 d-block">NOSOTROS</a></li>
+                        <li><a href="" class="ubicacion px-5 py-3 py-sm-0 d-block">UBICACIÓN</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container-fluid sin-padding scroll-container">
+            <section>
+                <article>
+                    <div class="slider">
+                        <div class="imagenes">
+                            <div class="item imagen_1">
+                                <div class="titulo row no-gutters">
+                                    <div class="col text-light text-center d-flex flex-column justify-content-center align-items-center">
+                                        <h1>Colección</h1>
+                                        <h1>Verano 2020</h1>
+                                        <button type="button" class="btn btn-dark my-4 my-sm-5 px-4 px-sm-5 py-2">Ver Más</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item imagen_2">
+                                <!--<div class="titulo row no-gutters">
+                                    <div class="col text-light text-center d-flex flex-column justify-content-center align-items-center">
+                                        <h1>Bienvenido</h1>
+                                        <h1>Al Verano</h1>
+                                        <button type="button" class="btn btn-dark my-4 my-sm-5 px-4 px-sm-5 py-2">Ver Más</button>
+                                    </div>
+                                </div>-->
+                            </div>
+                            <div class="item imagen_3">
+                                <!--<div class="titulo row no-gutters">
+                                    <div class="col text-light text-center d-flex flex-column justify-content-center align-items-center">
+                                        <h1>Visita Nuestra</h1>
+                                        <h1>Tienda</h1>
+                                        <button type="button" class="btn btn-dark my-4 my-sm-5 px-4 px-sm-5 py-2">Ver Más</button>
+                                    </div>
+                                </div>-->
+                            </div>
+                        </div>
+                        <div class="controles">
+                            <div class="izquierda d-flex justify-content-center align-items-center">
+                                <img src="img/iconos/icono_slider_izquierdo.png" alt="">
+                            </div>
+                            <div class="derecha d-flex justify-content-center align-items-center">
+                                <img src="img/iconos/icono_slider_derecho.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <div class="row no-gutters p-4 p-sm-5">
+                        <div class="texto_1 col m-sm-5">
+                            <div class="row no-gutters h-100">
+                                <div class="col-12 col-sm-8 text-center mx-auto p-2 p-sm-0 d-flex flex-column justify-content-center align-items-center">
+                                    <h4 class="mb-0 mt-sm-4 p-4 p-sm-5 d-flex flex-column justify-content-center align-items-center">Nuestro calzado artesanal es elaborado con 100% cuero peruano, somos exportadores y proveedores de reconocidas marcas a nivel nacional e internacional. Nos mantenemos en constante capacitación tanto a nivel nacional como en el extranjero.</h4>
+                                    <a href="" class="mb-sm-4 pb-4 pb-sm-5">Leer Más</a>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <div class="row no-gutters">
+                        <div class="texto_2 col-12 col-sm-6 text-center text-light p-5 p-sm-5 d-flex flex-column justify-content-center align-items-center">
+                            <h1 class="mt-4 mt-sm-0">RECIÉN</h1>
+                            <h1>LLEGADOS</h1>
+                            <a href="" class="my-4">COMPRA AHORA</a>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <img src="img/ofertas/producto_promocionado_n1_para_web_modificado.jpg" alt="" class="w-100 d-block">
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <div class="row no-gutters py-5">
+                        <div class="texto_3 col text-center pt-5 pt-sm-5 mt-sm-5">
+                            <h1 class="mt-0 mb-5 px-5 px-sm-0 d-flex flex-column justify-content-center align-items-center">AHORA EN OFERTA</h1>
+                            <h4 class="mb-0">HASTA 20% DE DESCUENTO</h4>
+                        </div>
+                    </div>
+                    <div class="ofertas row no-gutters text-center pb-5">
+                        <div class="col-12 col-sm-3 p-sm-4">
+                            <img src="img/ofertas/producto_oferta_1.jpg" alt="" class="w-100 p-5">
+                            <h4>MELLEA - ANIMAL PRINT</h4>
+                            <h5>(Mujer)</h5>
+                            <div class="descuento mt-5 d-flex justify-content-center align-items-center">
+                                <span class="h5 mr-2 text-danger">S./ 256.00</span>
+                                <strike class="h5 ml-2">S./ 320.00</strike>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-3 p-sm-4">
+                            <img src="img/ofertas/producto_oferta_2.jpg" alt="" class="w-100 p-5">
+                            <h4>BILLETERA QORIUM</h4>
+                            <h5>(Hombre)</h5>
+                            <div class="descuento mt-5 d-flex justify-content-center align-items-center">
+                                <span class="h5 mr-2 text-danger">S./ 65.60</span>
+                                <strike class="h5 ml-2">S./ 82.00</strike>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-3 p-sm-4">
+                            <img src="img/ofertas/producto_oferta_3.jpg" alt="" class="w-100 p-5">
+                            <h4>MORRAL QORIUM</h4>
+                            <h5>(Hombre)</h5>
+                            <div class="descuento mt-5 d-flex justify-content-center align-items-center">
+                                <span class="h5 mr-2 text-danger">S./ 419.20</span>
+                                <strike class="h5 ml-2">S./ 524.00</strike>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-3 p-sm-4">
+                            <img src="img/ofertas/producto_oferta_4.jpg" alt="" class="w-100 p-5">
+                            <h4>ADELAIDE - NEGRO</h4>
+                            <h5>(Mujer)</h5>
+                            <div class="descuento mt-5 d-flex justify-content-center align-items-center">
+                                <span class="h5 mr-2 text-danger">S./ 288.00</span>
+                                <strike class="h5 ml-2">S./ 360.00</strike>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row no-gutters">
+                        <div class="boton_texto_3 col text-center">
+                            <button type="button" class="btn btn-dark mt-5 px-5 py-2">Ver Más</button>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <div class="titulo_instagram row no-gutters">
+                        <div class="col-12 my-sm-5 py-5 text-center">
+                            <h4 class="my-5 d-flex flex-column justify-content-center align-items-center">Síguenos en Instagram</h4>
+                        </div>
+                    </div>
+                    <div class="fotos_instagram row no-gutters position-relative">
+                        <div class="col-12 col-sm-4"><img src="img/instagram/instagram_web_1.jpg" class="w-100 h-100" style="object-fit:cover"><a class="d-flex justify-content-center align-items-center" href=""><i class="fas fa-heart mx-4 d-flex justify-content-between align-items-center"><span class="mx-2">20</span></i><i class="fas fa-comment mx-4 d-flex justify-content-between align-items-center"><span class="mx-2">20</span></i></a></div>
+                        <div class="col-12 col-sm-4"><img src="img/instagram/instagram_web_2.jpg" class="w-100 h-100" style="object-fit:cover"><a class="d-flex justify-content-center align-items-center" href=""><i class="fas fa-heart mx-4 d-flex justify-content-between align-items-center"><span class="mx-2">20</span></i><i class="fas fa-comment mx-4 d-flex justify-content-between align-items-center"><span class="mx-2">20</span></i></a></div>
+                        <div class="col-12 col-sm-4"><img src="img/instagram/instagram_web_3.jpg" class="w-100 h-100" style="object-fit:cover"><a class="d-flex justify-content-center align-items-center" href=""><i class="fas fa-heart mx-4 d-flex justify-content-between align-items-center"><span class="mx-2">20</span></i><i class="fas fa-comment mx-4 d-flex justify-content-between align-items-center"><span class="mx-2">20</span></i></a></div>
+                    </div>
+                </article>
+            </section>
+            
+            <footer>
+                <div class="row no-gutters pt-sm-5 mt-sm-5">
+                    <div class="texto_footer col-10 col-sm-6 mx-auto mt-5 pt-5 text-center">
+                        <h1 class="mb-0 d-flex flex-column justify-content-center align-items-center">ÚNETE A NUESTRA LISTA DE CORREOS</h1>
+                        <h4 class="my-5">Disfruta de nuestras promociones, eventos y mucho más.</h4>
+                    </div>
+                </div>
+                <div class="row no-gutters pb-5 mb-5">
+                    <div class="lista_correo col-10 col-sm-4 mx-auto pb-sm-5 mb-sm-5">
+                        <form method="post" onsubmit="return false">
+                            <div class="row no-gutters">
+                                <div class="col-12 mb-2">
+                                    <input type="text" class="correo" maxlength="40" spellcheck="false" pattern="\w+([\.-]?\w+){0,25}@(hotmail|gmail|outlook|yahoo)+\.(com|es)" title="ejem: (hotmail,gmail,outlook,yahoo).(com,es)" placeholder="Ingrese su correo electrónico" required>
+                                </div>
+                                <div class="col-12">
+                                    <!-- Button trigger modal -->
+                                    <input type="submit" class="enviar btn btn-dark">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="informacion row no-gutters text-light text-center text-sm-left">
+                    <div class="col-12 py-4 py-sm-5">
+                        <div class="row no-gutters py-5">
+                            <div class="col-0 col-sm-1"></div>
+                            <div class="col-12 col-sm-2">
+                                <h4 class="mb-5">DATOS DE CONTACTO</h4>
+                                <ul class="pl-0 mb-5 mb-sm-0 d-flex flex-column justify-content-center align-items-center align-items-sm-start">
+                                    <li class="mb-1">Av. Aviación 950 ( Gama )</li>
+                                    <li class="mb-1">administracion@qorium.com.pe</li>
+                                    <li class="mb-1"><i class="fab fa-whatsapp mx-2"></i><a href="" target="_blank">954301376</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-0 col-sm-1"></div>
+                            <div class="col-12 col-sm-2">
+                                <h4 class="mb-5">SERVICIO AL CLIENTE</h4>
+                                <ul class="pl-0 mb-5 mb-sm-0 d-flex flex-column justify-content-center align-items-center align-items-sm-start">
+                                    <li class="mb-1">Términos y condiciones</li>
+                                    <li class="mb-1">Tiempo y costos de envio</li>
+                                    <li class="mb-1">Cambio y devoluciones</li>
+                                    <li class="mb-1">Libro de reclamaciones</li>
+                                    <li class="mb-1">Aviso de privacidad</li>
+                                    <li class="mb-1">Contáctanos</li>
+                                </ul>
+                            </div>
+                            <div class="col-0 col-sm-1"></div>
+                            <div class="col-12 col-sm-2">
+                                <h4 class="mb-5">MI CUENTA</h4>
+                                <ul class="pl-0 mb-5 mb-sm-0 d-flex flex-column justify-content-center align-items-center align-items-sm-start">
+                                    <li class="mb-1">Registrate</li>
+                                    <li class="mb-1">Cambia tu clave</li>
+                                    <li class="mb-1">Historial de pedidos</li>
+                                </ul>
+                            </div>
+                            <div class="col-0 col-sm-1"></div>
+                            <div class="col-12 col-sm-2">
+                                <h4 class="mb-5">MÉTODOS DE PAGO</h4>
+                                <img src="img/metodos_pago/logo_paypal.jpg" alt="" width="70px;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="copyright row no-gutters text-center text-light">
+                            <div class="col py-2">© 2019 Todos los derechos reservados</div>
+                        </div>  
+                    </div>
+                </div>
+            </footer>
+            
+        </div>
+    </div>
+    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/tweenMax.min.js"></script>
+    
+    <script src="js/preloader.js"></script>
+    <script src="js/carousel.js"></script>
+    <script src="js/scroll_2.js"></script>
+    <script src="js/boton.js"></script>
+    
+</body>
+</html>

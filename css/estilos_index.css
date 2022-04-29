@@ -1,0 +1,373 @@
+header .logo_qorium {
+    position: absolute;
+    width: 600px;
+    z-index: 2000;
+}
+
+nav .links .inicio {
+    color: #fff;
+}
+
+article .slider {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+article .imagenes .item {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    z-index: 1;
+}
+
+article .imagenes .imagen_1 {
+    top: 0;
+    left: 0;
+    /*background-image: url(../img/publicidad/sandalias_fondo_portada_n5_para_web_modificado.jpg);*/
+    background-image: url(../img/publicidad/fondo_para_web_6.jpg);
+}
+
+article .imagenes .imagen_2 {
+    top: 0;
+    left: 100%;
+    /*background-image: url(../img/publicidad/sandalias_fondo_portada_n3_para_web_modificado.jpg);*/
+    background-image: url(../img/publicidad/publicidad_qorium_nuevo_para_web.jpg);
+}
+
+article .imagenes .imagen_3 {
+    top: 0;
+    left: -100%;
+    /*background-image: url(../img/publicidad/sandalias_fondo_portada_n1_para_web_modificado.jpg);*/
+    background-image: url(../img/publicidad/publicidad_qorium_parte_3.jpg);
+}
+
+article .controles {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+
+article .controles .izquierda {
+    position: absolute;
+    width: 15%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 900;
+    font-size: 100px;
+    color: #000;
+    cursor: pointer;
+}
+
+article .controles .izquierda img {
+    width: 40px;
+}
+
+article .controles .derecha {
+    position: absolute;
+    width: 15%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: 900;
+    font-size: 100px;
+    color: #000;
+    cursor: pointer;
+}
+
+article .controles .derecha img {
+    width: 40px;
+}
+
+article .titulo {
+    height: 100vh;
+    padding-top: 110px;
+    position: relative;
+    z-index: 800;
+}
+
+article .titulo h1 {
+    font-size: 80px;
+    font-family: Roboto-Bold;
+}
+
+article .titulo button {
+    position: relative;
+    z-index: 9000;
+    background-color: transparent;
+    border-radius: 30px;
+    border: 3px solid #fff;
+    font-family: BrandonGrotW01-Regular;
+    font-size: 20px;
+    -webkit-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+
+article .titulo button:hover {
+    border: 3px solid #fff;
+    background-color: #fff;
+    color: #000;
+}
+
+article .texto_1 {
+    border: 1px solid #000;
+    color: #000;
+    font-family: Neuzeit-Grotesk-Light-Cond;
+    letter-spacing: 2px;
+}
+
+article .texto_1 h4:after {
+    content: '';
+    display: block;
+    width: 160px;
+    height: 50px;
+    border-bottom: 1px solid #000;
+}
+
+article .texto_1 a {
+    color: #000;
+    font-size: 20px;
+    -webkit-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+
+article .texto_1 a:hover {
+    text-decoration: none;
+    color: #959595;
+}
+
+article .texto_2 {
+    background-color: #000;
+    letter-spacing: 5px;
+}
+
+article .texto_2 h1 {
+    font-size: 60px;
+    font-family: Neuzeit-Grotesk-Bold-Cond;
+}
+
+article .texto_2 a {
+    color: #fff;
+    font-size: 25px;
+    -webkit-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+    font-family: Neuzeit-Grotesk-Light-Cond;
+}
+
+article .texto_2 a:hover {
+    text-decoration: none;
+    color: #959595;
+}
+
+article .texto_3 {
+    color: #000;
+}
+
+article .texto_3 h1 {
+    font-size: 60px;
+    font-family: Neuzeit-Grotesk-Bold-Cond;
+    letter-spacing: 5px;
+}
+
+article .texto_3 h1:after {
+    content: '';
+    display: block;
+    width: 160px;
+    height: 50px;
+    border-bottom: 1px solid #000;
+}
+
+article .texto_3 h4 {
+    font-family: Neuzeit-Grotesk-Light-Cond;
+    letter-spacing: 10px;
+}
+
+article .ofertas {
+    color: #000;
+    font-family: Neuzeit-Grotesk-Bold-Cond;
+    letter-spacing: 2px;
+}
+
+article .ofertas .descuento {
+    font-family: Neuzeit-Grotesk-Light-Cond;
+}
+
+article .boton_texto_3 button {
+    background-color: transparent;
+    border-radius: 30px;
+    border: 3px solid #000;
+    font-family: BrandonGrotW01-Regular;
+    font-size: 20px;
+    color: #000;
+    -webkit-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+
+article .boton_texto_3 button:hover {
+    border: 3px solid #000;
+    background-color: #000;
+    color: #fff;
+}
+
+article .titulo_instagram {
+    color: #000;
+    font-family: Neuzeit-Grotesk-Bold-Cond;
+    letter-spacing: 5px;
+}
+
+article .titulo_instagram h4:after {
+    content: '';
+    display: block;
+    width: 160px;
+    height: 50px;
+    border-bottom: 1px solid #000;
+}
+
+article .fotos_instagram a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0px;
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+article .fotos_instagram a i {
+    /*width: 40px;*/
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
+}
+
+article .fotos_instagram a:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+article .fotos_instagram a:hover i {
+    opacity: 1;
+    visibility: visible;
+}
+
+article .fotos_instagram a i span {
+    font-family: futura-Bold;
+    font-size: 18px;
+}
+
+/*-- responsive --*/
+
+@media screen and (max-width: 575px) {
+    
+    header .logo_qorium {
+        width: 200px;
+    }
+    
+    article .imagenes .imagen_1 {
+        background-image: url(../img/publicidad/sandalias_fondo_portada_n5_para_web_modificado.jpg);
+    }
+    
+    article .imagenes .imagen_2 {
+        background-image: url(../img/publicidad/sandalias_fondo_portada_n3_para_web_modificado.jpg);
+    }
+    
+    article .imagenes .imagen_3 {
+        background-image: url(../img/publicidad/sandalias_fondo_portada_n1_para_web_modificado.jpg);
+    }
+    
+    article .controles .izquierda img {
+        width: 25px;
+    }
+    
+    article .controles .derecha img {
+        width: 25px;
+    }
+    
+    article .titulo {
+        padding-top: 82px;
+    }
+    
+    article .titulo h1 {
+        font-size: 40px;
+    }
+    
+    article .titulo button {
+        font-size: 18px;
+    }
+    
+    article .texto_1 h4 {
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
+    
+    article .texto_1 h4:after {
+        height: 32px;
+        width: 120px;
+    }
+    
+    article .texto_1 a {
+        font-size: 18px;
+    }
+    
+    article .texto_2 h1 {
+        font-size: 40px;
+    }
+    
+    article .texto_2 a {
+        font-size: 18px;
+    }
+    
+    article .texto_3 h1 {
+        font-size: 40px;
+    }
+    
+    article .texto_3 h1:after {
+        width: 120px;
+    }
+    
+    article .texto_3 h4 {
+        font-size: 18px;
+        letter-spacing: 5px;
+    }
+    
+    article .ofertas h4 {
+        font-size: 18px;
+        letter-spacing: 5px;
+    }
+    
+    article .ofertas h5 {
+        font-size: 18px;
+        letter-spacing: 5px;
+    }
+    
+    article .ofertas strike {
+        font-size: 18px;
+    }
+    
+    article .ofertas span {
+        font-size: 18px;
+    }
+    
+    article .boton_texto_3 button {
+        font-size: 18px;
+    }
+    
+    article .titulo_instagram h4 {
+        font-size: 18px;
+    }
+    
+    article .titulo_instagram h4:after {
+        width: 120px;
+    }
+    
+}

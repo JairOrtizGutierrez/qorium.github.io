@@ -1,0 +1,65 @@
+header .preloader {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background-color: #000;
+    z-index: 3000;
+}
+
+header .loader {
+	position: absolute;
+	text-align: center;
+	color: #fff;
+	font-size: 50px;
+	letter-spacing: 5px;
+    font-family: Neuzeit-Grotesk-Bold-Cond;
+	overflow: hidden;
+}
+
+header .loader p {
+    margin: 15px 90px;
+}
+
+header .loader span {
+	position: absolute;
+	background: #fff;
+}
+
+header .loader span:nth-child(2) {
+	width: 100%;
+	height: 4px;
+	top: 0;
+    left: -100%;
+}
+
+header .loader span:nth-child(3) {
+	width: 4px;
+	height: 100%;
+	right: 0;
+    top: -100%;
+}
+
+header .loader span:nth-child(4) {
+	width: 100%;
+	height: 4px;
+    bottom: 0;
+    right: -100%;
+}
+
+header .loader span:nth-child(5) {
+	width: 4px;
+	height: 100%;
+	left: 0;
+    bottom: -100%;
+}
+
+/*-- responsive --*/
+
+@media screen and (max-width: 575px) {
+    
+    header .loader p{
+        font-size: 30px;
+        margin: 15px 50px;
+    }
+    
+}
