@@ -28,7 +28,7 @@ $(function() {
     
     Slider.prototype.onRight = function() {
         
-        clearInterval(this.intervalo);
+        /*clearInterval(this.intervalo);*/
         
         if (this.contador == 1 && this.propagation) {
             
@@ -77,13 +77,13 @@ $(function() {
             
         }
         
-        this.intervalo = setInterval($.proxy(this.onRight, this), 5000);
+        /*this.intervalo = setInterval($.proxy(this.onRight, this), 5000);*/
         
     };
     
     Slider.prototype.onLeft = function() {
         
-        clearInterval(this.intervalo);
+        /*clearInterval(this.intervalo);*/
         
         if (this.contador == 1 && this.propagation) {
             
@@ -133,7 +133,7 @@ $(function() {
             
         }
         
-        this.intervalo = setInterval($.proxy(this.onRight, this), 5000);
+        /*this.intervalo = setInterval($.proxy(this.onRight, this), 5000);*/
         
     };
     
