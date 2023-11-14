@@ -1,0 +1,162 @@
+footer .texto_footer {
+	color: #000;
+	letter-spacing: 3px;
+}
+
+footer .texto_footer h1 {
+	font-size: 60px;
+	font-family: Neuzeit-Grotesk-Bold-Cond;
+}
+
+footer .texto_footer h1:after {
+	content: '';
+	display: block;
+	width: 160px;
+	height: 50px;
+	border-bottom: 1px solid #000;
+}
+
+footer .texto_footer h4 {
+	font-family: Neuzeit-Grotesk-Light-Cond;
+}
+
+footer .lista_correo {
+	color: #000;
+	font-family: Neuzeit-Grotesk-Bold-Cond;
+	width: 75%;
+}
+
+footer .lista_correo input {
+	width: 100%;
+	transition: 0.5s ease-in-out;
+	letter-spacing: 2px;
+}
+
+footer .lista_correo .correo {
+	padding: 5px 10px;
+	border: 1px solid #000;
+	transition: 0.5s ease-in-out;
+	outline: none;
+	font-size: 18px;
+}
+
+footer .lista_correo .enviar {
+	border: 1px solid #000;
+	border-radius: 0px;
+	background-color: #000 !important;
+	font-size: 18px;
+}
+
+footer .lista_correo .enviar:hover {
+	background-color: #fff !important;
+	color: #000;
+}
+
+footer .informacion {
+	background-color: #000;
+	letter-spacing: 2px;
+}
+
+footer .informacion > div > div {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	gap: 120px;
+}
+
+footer .informacion h4 {
+	font-family: Neuzeit-Grotesk-Bold-Cond;
+}
+
+footer .informacion li {
+	font-family: Neuzeit-Grotesk-Light-Cond;
+	list-style: none;
+	font-size: 16px;
+}
+
+footer .informacion li a {
+	color: #f8f9fa;
+	text-decoration: none;
+}
+
+footer .copyright {
+	font-family: Neuzeit-Grotesk-Light-Cond;
+	background-color: #050505;
+	font-size: 16px;
+}
+
+/*-- responsive --*/
+
+@media (max-width: 1399.98px) {
+	footer .lista_correo {
+		width: 100%;
+	}
+
+	footer .texto_footer h1 {
+		font-size: 54px;
+	}
+
+	footer .texto_footer h4 {
+		font-size: 22px;
+	}
+}
+
+@media (max-width: 1199.98px) {
+	nav .links .logo_web {
+		width: 212px;
+	}
+
+	footer .texto_footer h1 {
+		font-size: 48px;
+	}
+
+	footer .texto_footer h4 {
+		font-size: 21px;
+	}
+}
+
+@media (max-width: 991.98px) {
+	nav .links .logo_web {
+		width: 194px;
+	}
+
+	footer .texto_footer h1 {
+		font-size: 42px;
+	}
+
+	footer .texto_footer h4 {
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 767.98px) {
+	nav .links .logo_web {
+		width: 176px;
+	}
+
+	footer .texto_footer h1 {
+		font-size: 36px;
+	}
+
+	footer .texto_footer h4 {
+		font-size: 19px;
+	}
+}
+
+@media (max-width: 575.98px) {
+	nav .links .logo_web {
+		width: 160px;
+	}
+
+	footer .texto_footer h1 {
+		font-size: 30px;
+	}
+
+	footer .texto_footer h4 {
+		font-size: 18px;
+	}
+
+	footer .informacion h4 {
+		font-size: 24px;
+		letter-spacing: 3px;
+	}
+}

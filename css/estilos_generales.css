@@ -1,228 +1,131 @@
 .modal {
-    padding-right: 0px !important;
-    font-family: Neuzeit-Grotesk-Light-Cond !important;
-    letter-spacing: 2px !important;
+	padding-right: 0px !important;
+	font-family: Neuzeit-Grotesk-Light-Cond !important;
+	letter-spacing: 2px !important;
 }
 
 .modal-content {
-    border-radius: 0px !important;
-    border: none !important;
+	border-radius: 0px !important;
+	border: none !important;
 }
 
 .modal-open {
-    overflow-y: scroll !important;
+	overflow-y: scroll !important;
 }
 
 .modal-footer .btn {
-    border-radius: 0px !important;
-    font-size: 18px !important;
-    letter-spacing: 2px !important;
+	border-radius: 0px !important;
+	font-size: 18px !important;
+	letter-spacing: 2px !important;
 }
 
 .modal-footer .btn-dark {
-    background-color: #000;
+	background-color: #000;
 }
 
 body {
-    overflow-x: hidden;
-    overflow-y: scroll;
+	overflow-x: hidden;
+	overflow-y: scroll;
 }
 
 body::-webkit-scrollbar {
-    width: 7px;
+	width: 7px;
 }
 
 body::-webkit-scrollbar-thumb {
-    background: #000;
+	background: #000;
 }
 
 body .viewport {
-    overflow: hidden;
-    position: fixed;
-    width: 100%;
-    height: 100vh;
+	overflow: hidden;
+	position: fixed;
+	width: 100%;
+	height: 100vh;
 }
 
-body .scroll-container {  
-    position: absolute;  
-    overflow: hidden;
+body .scroll-container {
+	position: absolute;
+	overflow: hidden;
 }
 
-body .sin-padding {
-    padding-right: 0px !important;
-    padding-left: 0px !important;
+nav > div {
+	position: fixed;
+	z-index: 1000;
+	width: 100%;
+	background-color: #000;
 }
 
 nav .links {
-    width: 100%;
-    height: 110px;
-    position: fixed;
-    z-index: 1000;
-    background-color: #000;
+	width: 90%;
 }
 
 nav .links .fondo_blanco {
-    position: absolute;
-    width: 100%;
-    height: 100vh;
-    background-color: #fff;
-    opacity: 0;
-    display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	background-color: #fff;
+	opacity: 0;
+	display: none;
 }
 
 nav .links .fondo_blanco .listado_links {
-    transform: translateY(20px);
+	transform: translateY(20px);
 }
 
 nav .links .fondo_blanco .listado_links li {
-    opacity: 0;
+	opacity: 0;
 }
 
 nav .links .fondo_blanco .listado_links a {
-    color: #000;
-    font-size: 24px;
+	color: #000;
+	font-size: 24px;
 }
 
 nav .links li {
-    list-style: none;
+	list-style: none;
 }
 
 nav .links a {
-    color: #959595;
-    text-decoration: none;
-    font-family: Neuzeit-Grotesk-Light-Cond;
-    letter-spacing: 2px;
-    font-size: 18px;
-    transition: 0.5s ease-in-out;
+	color: #959595;
+	text-decoration: none;
+	font-family: Neuzeit-Grotesk-Light-Cond;
+	letter-spacing: 2px;
+	font-size: 18px;
+	transition: 0.5s ease-in-out;
 }
 
 nav .links a:hover {
-    color: #fff;
-    text-decoration: none;
-}
-
-footer .texto_footer {
-    color: #000;
-    letter-spacing: 5px;
-}
-
-footer .texto_footer h1 {
-    font-size: 60px;
-    font-family: Neuzeit-Grotesk-Bold-Cond;
-}
-
-footer .texto_footer h1:after {
-    content: '';
-    display: block;
-    width: 160px;
-    height: 50px;
-    border-bottom: 1px solid #000;
-}
-
-footer .texto_footer h4 {
-    font-family: Neuzeit-Grotesk-Light-Cond;
-}
-
-footer .lista_correo {
-    color: #000;
-    font-family: Neuzeit-Grotesk-Bold-Cond;
-}
-
-footer .lista_correo input {
-    width: 100%;
-    transition: 0.5s ease-in-out;
-    font-size: 20px;
-    letter-spacing: 2px;
-}
-
-footer .lista_correo .correo {
-    padding: 5px 10px;
-    border: 1px solid #000;
-    transition: 0.5s ease-in-out;
-    outline: none;
-}
-
-footer .lista_correo .enviar {
-    border: 1px solid #000;
-    border-radius: 0px;
-    background-color: #000 !important;
-}
-
-footer .lista_correo .enviar:hover {
-    background-color: #fff !important;
-    color: #000;
-}
-
-footer .informacion {
-    background-color: #000;
-    letter-spacing: 2px;
-}
-
-footer .informacion h4 {
-    font-family: Neuzeit-Grotesk-Bold-Cond;
-}
-
-footer .informacion li {
-    font-family: Neuzeit-Grotesk-Light-Cond;
-    list-style: none;
-    font-size: 18px;
-}
-
-footer .informacion li a {
-    color: #f8f9fa;
-    text-decoration: none;
-}
-
-footer .copyright {
-    font-family: Neuzeit-Grotesk-Light-Cond;
-    background-color: #050505;
+	color: #fff;
+	text-decoration: none;
 }
 
 /*-- responsive --*/
 
-@media screen and (max-width: 575px) {
-    
-    nav .links {
-        height: 82px;
-    }
-    
-    nav .links .logo_web {
-        width: 180px;
-    }
-    
-    footer .texto_footer h1 {
-        font-size: 32px;
-        letter-spacing: 3px;
-    }
-    
-    footer .texto_footer h1:after {
-        width: 120px;
-    }
-    
-    footer .texto_footer h4 {
-        font-size: 18px;
-        letter-spacing: 3px;
-    }
-    
-    footer .lista_correo .correo {
-        font-size: 18px;
-    }
-    
-    footer .lista_correo .enviar {
-        font-size: 18px;
-    }
-    
-    footer .informacion h4 {
-        font-size: 24px;
-        letter-spacing: 3px;
-    }
-    
-    footer .informacion li {
-        font-size: 16px;
-    }
-    
-    footer .copyright {
-        font-size: 16px;
-    }
-    
+@media (max-width: 1399.98px) {
+}
+
+@media (max-width: 1199.98px) {
+	nav .links .logo_web {
+		width: 212px;
+	}
+}
+
+@media (max-width: 991.98px) {
+	nav .links .logo_web {
+		width: 194px;
+	}
+}
+
+@media (max-width: 767.98px) {
+	nav .links .logo_web {
+		width: 176px;
+	}
+}
+
+@media (max-width: 575.98px) {
+	nav .links .logo_web {
+		width: 160px;
+	}
 }
